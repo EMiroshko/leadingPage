@@ -1,0 +1,149 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.page {
+	height: 100%;
+	position: relative;
+}
+
+.first-page {
+	background-image: url(image/sky.jpg);
+	background-size: 100%;
+}
+
+.second-page {
+	background-color: #FFFFFF;
+	margin-top: -20px;
+	box-shadow: 0 -5px 5px #FFFFFF;
+}
+
+.third-page {
+	background-color: #5858FA;
+	margin-top: -20px;
+	box-shadow: 0 -5px 5px #5858FA;
+}
+
+header {
+	background-color: #000000;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	box-shadow: 0 5px 5px #1C1C1C;
+}
+
+nav ul, nav li {
+	display: inline-block;
+	font-size: 0;
+}
+
+.logo-img {
+	position: absolute;
+	left: 0;
+	top: -50px;
+	height: 150px;
+}
+
+.button {
+	display: inline-block;
+	font-size: 14px;
+	color: #585858;
+	text-decoration: none;
+	height: 50px;
+	width: 150px;
+	border-left: 1px solid #1C1C1C;
+	border-right: 1px solid #000000;
+	padding: 0 20px;
+}
+
+.last-button {
+	border-right: 1px solid #1C1C1C;
+}
+
+.button:hover {
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	color: #FFFFFF
+}
+
+.plane-img {
+	position: absolute;
+	right: 0;
+	width: 60%;
+}
+
+.first-page-content {
+	position: relative;
+	top: 380px;
+	font-style: italic;
+	text-shadow: 5px 5px 10px #000000;
+}
+
+.next {
+	display: inline-block;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	color: #000000;
+	padding: 0 30px 30px 30px;
+	border-radius: 15px;
+	position: relative;
+	left: 45%;
+	top: -3%;
+	box-shadow: 0 -5px 5px #FFFFFF;
+}
+
+.last-next {
+	background-color: #5858FA;
+	box-shadow: 0 -5px 5px #5858FA;
+	left: 43%;
+}
+
+.back {
+	display: inline-block;
+	background-color: #000000;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 5px 11px;
+	border-radius: 350px;
+	position: absolute;
+	right: 2%;
+	bottom: 10%;
+	box-shadow: 0 -5px 5px #1C1C1C;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #000000;
+	box-shadow: 0 -5px 5px #1C1C1C;
+}
+
+.down-panel span{
+	display: inline-block;
+	padding: 0 30px;
+	color: #151515;
+}
+
+.down-panel span:hover {
+	color: #FFFFFF;
+}
+
+.down-panel span:first-child {
+	position: absolute;
+	left: 0;
+}
+
+.down-panel span:last-child {
+	position: absolute;
+	right: 0;
+}
